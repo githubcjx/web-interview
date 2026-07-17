@@ -169,6 +169,7 @@ answers.md           # 面试话术库（我面试前朗读用）
   2. 用 Glob（`sessions/*.md`）找到**最新的 1-2 个日期文件**并 Read，拿到「下次计划」和最近表现。
   不要等我提供、也不要问我要。（`answers.md` 是产出物，按需读取。）
 - **每次会话结束**（我说「今天到这里」「结束」或类似表述时）：你必须**用 Edit/Write 直接把更新写回**，不要再输出代码块让我复制保存。写回后简单告知我更新了哪些内容即可。
+- **每次会话结束、写回文件后，自动 `git add -A` + `commit` + `push` 到远程仓库**（origin: https://github.com/githubcjx/web-interview.git ，main 分支），无需再问我。commit message 用一句中文概括当次进展。推送后告知结果。
 - 不要维护 `sessions` 的汇总索引文件——全局状态只由 `progress.md` 负责，避免双份维护导致不一致。
 - 若文件/目录不存在，按下方模板直接创建。
 
